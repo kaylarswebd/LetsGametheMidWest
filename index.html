@@ -7,8 +7,11 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.scss">
     <link rel="stylesheet" href="script/JS.script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@900&family=Nunito:wght@300&display=swap" rel="stylesheet">
 
     <style>
 
@@ -19,36 +22,31 @@
 <body>
 
 <!--top-->
-<div class="container">
+
+<!-- Jumbotron -->
+
+<!-- Jumbotron -->
+<div class="container" style="background-image: url(photos/clay-banks-Ihful4zTe0Q-unsplash.jpg); background-size: 100%; height: 250px; color: aquamarine;">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Ice Fishing Minnesota</h1>
+          <h1 class="display-4">Ice Fish the MidWest</h1>
           <p class="lead">A place for fishermen to get what they truly need.</p>
         </div>
       </div>
 </div>
 
 <!--navbar-->
-<div class="container">
+<div class="container" id="jumbo">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link active" aria-current="page" href="#data">Weather Data</a>
           </li>
         </ul>
       </div>
@@ -73,10 +71,10 @@
 </div>
 
 <!--cards and pics for other pages-->
-<div class="container">
+<div class="container" id="data">
   <div class="row">
     <h1>Weather data</h1>
-    <p></p>
+    <p>Below is all the weather data that a ice fisher would need! We have the wind, rain/thunder, tempature, clouds, waves by the Great Lakes, CO concentration, and last but not least THE AIR PRESSURE MOVEMENT!</p>
   </div>
   <div class="row">
     <iframe width="650" height="450"
@@ -131,7 +129,7 @@
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
             <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Ice Fishing Minnesota
+              <i class="fas fa-gem me-3"></i>Ice Fish the MidWest
             </h6>
             <p>
               Here at Ice Fishing Minnesota we know what you are passionate about. And that's fishing! To get you out on the ice safetly with your family we know you need the data to do so, and that's why we made this site. Under Catch of the day is where you will find the weather information no matter where you are! So, enjoy!
@@ -208,6 +206,8 @@
     <!-- Copyright -->
   </footer>
 </div>
+
+
 
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: Bootstrap Bundle with Popper -->
