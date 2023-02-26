@@ -1,12 +1,11 @@
-body {
-    background-color: antiquewhite;
+.content1 {
+    background-color: bisque;
 }
-h1 {
-    font-family: 'Golos Text', sans-serif;;
-}
-p {
-    font-family: 'Nunito', sans-serif;
-}
-#jumbo {
-    height: 250px;
+
+.container {
+    padding-bottom: 12px;
+    
+    h1 {
+        font-family: 'Golos Text', sans-serif;
+    }
 }
