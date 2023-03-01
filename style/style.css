@@ -1,3 +1,9 @@
+.jumbo {
+  color: aquamarine;
+  background-color: #456d51;
+  height: 225px;
+}
+
 .content1 {
   background-color: bisque;
 }
@@ -5,6 +11,8 @@
 .container {
   padding-bottom: 12px;
 }
+
 .container h1 {
-  font-family: "Golos Text", sans-serif;
-}/*# sourceMappingURL=style.css.map */
+  font-family: 'Golos Text', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
