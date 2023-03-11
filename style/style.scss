@@ -1,8 +1,12 @@
+
+/*jumbo*/
 .jumbo{
     color: aquamarine;
     background-color: rgb(69, 109, 81);
     height: 225px;
 }
+
+/*all body content lower than jumbo*/
 .content1 {
     background-color: bisque;
 }
@@ -13,4 +17,9 @@
     h1 {
         font-family: 'Golos Text', sans-serif;
     }
+}
+
+/*moon*/
+#moon {
+    text-align: center;
 }
